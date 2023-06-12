@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ByWindow</string>
+    <string name="app_name_zh">窗边</string>
+    <string name="store_name">by_window</string>
+    <string name="day_weather">day_weather</string>
+    <string name="week_weather">week_weather</string>
+
+    <string name="title_home">首页</string>
+    <string name="title_detail">数据</string>
+    <string name="title_hour">小时</string>
+    <string name="title_week">一周</string>
+
+    <string name="title_location">位置</string>
+    <string name="title_settings">设置</string>
+    <string name="setting_refresh">刷新频率</string>
+    <string name="setting_background">更换背景</string>
+
+    <string name="air_quality">空气质量</string>
+    <string name="wind_strong">风力</string>
+    <string name="wind_speed">风速</string>
+    <string name="wet">湿度</string>
+    <string name="pressure">气压</string>
+</resources>
