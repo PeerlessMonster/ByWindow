@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingTop="45dp"
+    android:paddingLeft="25dp"
+    android:paddingRight="25dp"
+    android:paddingBottom="10dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="0dp"
+    android:background="@drawable/block_alpha">
+
+    <TextView
+        android:id="@+id/hour_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="19:00"
+        android:textSize="18sp"
+        android:textColor="@color/white" />
+    
+    <ImageView
+        android:id="@+id/hour_weather_pic"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/ic_light_rain" />
+    
+    <TextView
+        android:id="@+id/hour_weather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="多云"
+        android:textSize="22sp" />
+
+    <ProgressBar
+        android:layout_width="10dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="10dp"
+        android:max="50"
+        android:min="0"
+        android:progress="20"
+        style="@style/Custom.Progressbar.Vertical" />
+
+    <TextView
+        android:id="@+id/hour_temper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="22℃" />
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_detail"
+        android:icon="@drawable/graph"
+        android:title="@string/title_detail" />
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_hour"
+        android:icon="@drawable/clock"
+        android:title="@string/title_hour" />
+
+    <item
+        android:id="@+id/navigation_week"
+        android:icon="@drawable/calendar"
+        android:title="@string/title_week" />
+
+</menu>
